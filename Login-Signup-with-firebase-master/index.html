@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="logout()">logout</button>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB4zgz6HuY1qmrvoCDSBINTOU1IsxBl79A",
+    authDomain: "explosion-9e0b5.firebaseapp.com",
+    databaseURL: "https://explosion-9e0b5.firebaseio.com",
+    projectId: "explosion-9e0b5",
+    storageBucket: "explosion-9e0b5.appspot.com",
+    messagingSenderId: "495549953497",
+    appId: "1:495549953497:web:84de4106ba0f4dc6e195c8",
+    measurementId: "G-1V8Q85NSBG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var database = firebase.database();
+    </script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
